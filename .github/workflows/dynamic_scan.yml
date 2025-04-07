@@ -1,12 +1,7 @@
 name: Dynamic Application Security Testing (DAST)
 on:
     workflow_dispatch:
-        inputs:
-            selected-branch:
-                description: 'Branch to scan'
-                required: true
-                type: string
-                default: 'Please input a branch'
+        
 
 jobs:
   Explore-GitHub-Actions:

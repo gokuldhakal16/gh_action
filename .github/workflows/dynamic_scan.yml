@@ -9,8 +9,7 @@ on:
                 default: 'Please input a branch'
 
 jobs:
-    scan_job:
-        runs-on: ubuntu-20.04
-        steps:
-            -name: My dynamic scan
-            run: echo "Worked"
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
